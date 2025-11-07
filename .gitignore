@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# FAISS index files
+*.index
+
+# Data files
+data/*.jsonl
+data/*.csv
